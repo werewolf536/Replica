@@ -82,7 +82,7 @@ SHOW MASTER STATUS;
 ```
 7. На слейве добавляем реплиацию с мастера
 ```
-CHANGE MASTER TO MASTER_HOST='192.168.7.110', MASTER_USER='replication', MASTER_PASSWORD='My_PA55W0RD', MASTER_LOG_FILE='mysql.000001', MASTER_LOG_POS=157;
+CHANGE MASTER TO MASTER_HOST='192.168.7.110', MASTER_USER='replication', MASTER_PASSWORD='PA$$WORD', MASTER_LOG_FILE='mysql.000001', MASTER_LOG_POS=157;
 ```
 8. На слейве запускаем репликацию
 ```
